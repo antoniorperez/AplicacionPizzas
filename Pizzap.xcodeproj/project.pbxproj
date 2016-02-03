@@ -12,6 +12,11 @@
 		8E819A9A1C62824A00A40201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E819A981C62824A00A40201 /* Main.storyboard */; };
 		8E819A9C1C62824A00A40201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E819A9B1C62824A00A40201 /* Assets.xcassets */; };
 		8E819A9F1C62824A00A40201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E819A9D1C62824A00A40201 /* LaunchScreen.storyboard */; };
+		8E819AA81C62873F00A40201 /* SizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E819AA71C62873F00A40201 /* SizeController.swift */; };
+		8E819AAA1C628D6600A40201 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E819AA91C628D6600A40201 /* MasaController.swift */; };
+		8E819AAC1C62AFCC00A40201 /* CheeseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E819AAB1C62AFCC00A40201 /* CheeseController.swift */; };
+		8E819AAE1C62B04F00A40201 /* IngredientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E819AAD1C62B04F00A40201 /* IngredientController.swift */; };
+		8E819AB01C62B0B300A40201 /* SummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E819AAF1C62B0B300A40201 /* SummaryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8E819A9B1C62824A00A40201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E819A9E1C62824A00A40201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E819AA01C62824A00A40201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E819AA71C62873F00A40201 /* SizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeController.swift; sourceTree = "<group>"; };
+		8E819AA91C628D6600A40201 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		8E819AAB1C62AFCC00A40201 /* CheeseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseController.swift; sourceTree = "<group>"; };
+		8E819AAD1C62B04F00A40201 /* IngredientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientController.swift; sourceTree = "<group>"; };
+		8E819AAF1C62B0B300A40201 /* SummaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		8E819A931C62824A00A40201 /* Pizzap */ = {
 			isa = PBXGroup;
 			children = (
+				8E819AA61C62871B00A40201 /* Controllers */,
 				8E819A941C62824A00A40201 /* AppDelegate.swift */,
 				8E819A961C62824A00A40201 /* ViewController.swift */,
 				8E819A981C62824A00A40201 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				8E819AA01C62824A00A40201 /* Info.plist */,
 			);
 			path = Pizzap;
+			sourceTree = "<group>";
+		};
+		8E819AA61C62871B00A40201 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E819AA71C62873F00A40201 /* SizeController.swift */,
+				8E819AA91C628D6600A40201 /* MasaController.swift */,
+				8E819AAB1C62AFCC00A40201 /* CheeseController.swift */,
+				8E819AAD1C62B04F00A40201 /* IngredientController.swift */,
+				8E819AAF1C62B0B300A40201 /* SummaryController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E819AAE1C62B04F00A40201 /* IngredientController.swift in Sources */,
 				8E819A971C62824A00A40201 /* ViewController.swift in Sources */,
+				8E819AB01C62B0B300A40201 /* SummaryController.swift in Sources */,
+				8E819AAA1C628D6600A40201 /* MasaController.swift in Sources */,
+				8E819AAC1C62AFCC00A40201 /* CheeseController.swift in Sources */,
 				8E819A951C62824A00A40201 /* AppDelegate.swift in Sources */,
+				8E819AA81C62873F00A40201 /* SizeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
