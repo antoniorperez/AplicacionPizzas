@@ -10,7 +10,7 @@ import UIKit
 
 class MasaController : UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
-    let masas = ["Delgada", "crujiente", "Gruesa"]
+    let masas = ["Delgada", "Crujiente", "Gruesa"]
     
     var tamaño : String = ""
 

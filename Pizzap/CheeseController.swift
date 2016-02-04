@@ -10,7 +10,7 @@ import UIKit
 
 class CheeseController : UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
-    let quesos = ["Mozzarela", "Cheddar", "Parmesane", "Sin queso"]
+    let quesos = ["Mozzarela", "Cheddar", "Parmesano", "Sin queso"]
     
     var tamaño : String = ""
     var masa : String = ""
